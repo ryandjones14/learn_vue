@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+Built using [this tutorial](https://scotch.io/tutorials/how-to-build-a-simple-single-page-application-using-vue-2-part-1) from Scotch.io.
+
 ## Build Setup
 
 ``` bash
