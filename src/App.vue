@@ -1,6 +1,8 @@
 <template>
   <div id="app">
   <!-- the router outlet, where all matched components would ber viewed -->
+  <router-link v-bind:to="'/'">home</router-link>
+  <router-link v-bind:to="'/about'">about</router-link>
   <router-view></router-view>
   </div>
 </template>
