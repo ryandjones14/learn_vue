@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+  <!-- the router outlet, where all matched components would ber viewed -->
+  <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'app'
 }
 </script>
-
+<!-- styling for the component -->
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
